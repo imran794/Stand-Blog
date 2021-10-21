@@ -47,6 +47,14 @@ if(isset($_GET['adminlogout'])){
                           include('view/dashboard_view.php');
                       }elseif ($views == 'banner') {
                         include('view/banner_view.php');
+                      }elseif ($views == 'category') {
+                        include('view/category_view.php');
+                      }elseif ($views == 'managecategory') {
+                        include('view/manage_category_view.php');
+                      }elseif ($views == 'managebanner') {
+                        include('view/manage_banner_view.php');
+                      }elseif ($views == 'Edit') {
+                        include('view/edit_view.php');
                       }
 
                     }

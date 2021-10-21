@@ -20,9 +20,6 @@ if (isset($_SESSION['id'])) {
 ?>
 
 
-
-
-
 <?php include_once('include/head.php'); ?>
     <body class="bg-primary">
         <div id="layoutAuthentication">
@@ -59,7 +56,7 @@ if (isset($_SESSION['id'])) {
                                         </form>
                                     </div>
                                     <div class="card-footer text-center">
-                                        <div class="small"><a href="register.html">Need an account? Sign up!</a></div>
+                                        <div class="small"><a href="register.php">Need an account? Sign up!</a></div>
                                     </div>
                                 </div>
                             </div>
